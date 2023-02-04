@@ -67,5 +67,7 @@ if __name__ == '__main__':
         ),
     )
 
+    print(f"New student ID is {albert_einstein.id}.")
+
     session.bulk_save_objects([albert_einstein, alan_turing])
     session.commit()
